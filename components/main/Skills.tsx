@@ -1,8 +1,8 @@
 "use client"
 import { Backend_skill, Frontend_skill, Full_stack, Other_skill, Skill_data } from '@/constants'
 import React from 'react'
-import SkillDataProvider from '../../components/sub/SkillDataProvider'
-import SkillText from '../../components/sub/SkillText'
+import SkillDataProvider from '../sub/SkillDataProvider'
+import SkillText from '../sub/SkillText'
 
 function Skills() {
   return (

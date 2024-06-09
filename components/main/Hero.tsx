@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroContent from '../../components/sub/HeroContent'
+import HeroContent from '../sub/HeroContent'
 
 function Hero() {
   return (

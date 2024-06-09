@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
 import { Socials } from '@/constants'
-import Project from '../project/Project'
+import Project from './Project'
 function Navbar() {
   return (
     <div className='w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417 backdrop-blur-md z-50 px-10'>

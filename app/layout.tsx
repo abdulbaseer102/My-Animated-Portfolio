@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import StartsCanvas from "@/app/main/StartBackground";
-import Navbar from "@/app/Navbar/Navbar";
-import Footerr from "@/app/footer/Footer";
+import StartsCanvas from "@/components/main/StartBackground";
+import Navbar from "@/components/main/Navbar";
+import Footerr from "@/components/main/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +16,7 @@ export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
-  
+
 }) {
   return (
     <html lang="en">
