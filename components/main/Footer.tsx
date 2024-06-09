@@ -1,3 +1,4 @@
+
 import React from "react";
 import {
   RxDiscordLogo,
@@ -9,7 +10,7 @@ import {
 
 import { FaYoutube } from "react-icons/fa";
 
-const Footerr = () => {
+const Footer = () => {
   return (
     <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] ">
         <div className="w-full flex flex-col items-center justify-center m-auto">
@@ -52,13 +53,13 @@ const Footerr = () => {
                      
                         <span className="text-[15px] ml-[6px]">Become Sponsor</span>    
                     </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">               
+                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
                       
                         <span className="text-[15px] ml-[6px]">Learning about me</span>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                   
-                        <span className="text-[15px] ml-[6px]">abdulbaseer@gmail.com</span>    
+                        <span className="text-[15px] ml-[6px]">mifwebchain@gmail.com</span>    
                     </p>
                 </div>
             </div>
@@ -71,4 +72,4 @@ const Footerr = () => {
   )
 }
 
-export default Footerr
+export default Footer
